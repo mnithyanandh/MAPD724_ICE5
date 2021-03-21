@@ -68,12 +68,12 @@ class ViewController: UIViewController {
 // -------------------------------------------------------- //
 
 // ------- For SLOW bouncing W/Rotation & Treansparency movement of UIImageView ------ //
-//    UIView.animate(withDuration: 2.0, delay: 0.0, options:
-//                        [.repeat, .autoreverse], animations: {
-//            self.myLabel.alpha = 0.0
-//            self.myLabel.backgroundColor = UIColor.lightGray
-//            self.myImageView.transform = CGAffineTransform(rotationAngle: CGFloat(self.rotateMe))
-//        },  completion: nil)
+    UIView.animate(withDuration: 2.0, delay: 0.0, options:
+                        [.repeat, .autoreverse], animations: {
+            self.myLabel.alpha = 0.0
+            self.myLabel.backgroundColor = UIColor.lightGray
+            self.myImageView.transform = CGAffineTransform(rotationAngle: CGFloat(self.rotateMe))
+        },  completion: nil)
 // -------------------------------------------------------- //
         
     }
